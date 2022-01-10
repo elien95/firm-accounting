@@ -1,0 +1,98 @@
+
+/*تنسيق القائمة الجانبية*/
+.sidebar {
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%; /*طول القائمة*/
+    background-color: #fff;
+    overflow: hidden; /*أخفي جميع العناصر التي تتخطى 100 */
+    padding-bottom: 70px;
+    margin-top:6px;
+}
+/*إظهار شريط التمرير بشكل شاقولي*/
+.sidebar:hover {
+    overflow-y: scroll;
+}
+/*تغيير ألوان الأيقونات في القائمة الجانبية*/
+.sidebar .green {
+    color:rgb(48, 228, 171) ;
+}
+/*تغيير ألوان عناصر القائمة عند مرور مؤشر الفأرة على القائمة الجانبية*/
+.sidebar .list-group-item:hover {
+    color:#fff;
+    background-color: rgb(48, 228, 171) ;
+}
+/*تغيير لون الأيقونات أيضًا عند مرور مؤشر الفأرة على القائمة الجانبية*/
+.sidebar .list-group-item:hover .green {
+    color:#fff;
+}
+/*زيادة عرض عناصر القائمة الجانبية*/
+.sidebar .list-group-item {
+    width: 17rem;
+}
+/*إخفاء القائمة الجانبية عند أول تحميل للصفحة*/
+#wrap.toggled .sidebar {
+    right: 0rem;
+}
+/*تنسيق خلفية شريط التمرير*/
+.sidebar::-webkit-scrollbar {
+    background: rgb(230,230,230);
+    width: 8px;
+}
+/*تنسيق شريط التمرير*/
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgb(179, 179, 179);
+    width:8px;
+}
+.navbar i {
+    color:#000 !important;
+}
+
+section.features{
+    background-color: #ffff;
+    padding: 80px 0;
+}
+section.features .features{
+    margin-top: 90px;
+}
+section.features .features .media {
+    margin-bottom: 30px;
+}
+section.features .features .media-body h5{
+    font-size: 24px;
+    color: #080808; ;
+    margin-bottom: 12px;
+}
+section.features .features .media-body h5 a:hover{
+    color: rgb(118, 223, 188);
+}
+section.features .features  .media-body p{
+    line-height: 20px;
+    font-size: 15px;
+    color: #757474;
+}
+section.features .features i {
+    color: #fff;
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 2px;
+    text-align: center;
+    display: block !important;
+}
+ section.featuers .mobile-imge img.logg {
+   /*  margin-top: 50px;
+    width: 80%;
+   margin: 0 auto;
+    display: block ;
+  */
+  margin-top: -100px !important;
+  width: 45px;
+  height: 450px;
+  margin-right:870px;
+  shape-outside: circle();
+  clip-path: circle();
+}
