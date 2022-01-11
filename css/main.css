@@ -96,3 +96,14 @@ section.features .features i {
   shape-outside: circle();
   clip-path: circle();
 }
+.sidebar .card-body ul {
+    list-style: none !important;
+    line-height: 25px;
+}
+.sidebar .card-body ul li a:hover {
+color :rgb(48, 228, 171) !important;
+}
+.sidebar .card-header h2 button:hover i{
+    color:#fff !important; 
+   
+}

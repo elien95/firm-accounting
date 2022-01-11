@@ -1,0 +1,37 @@
+ table  {
+width: 80%;
+height: 150%;
+border:2px solid aqua;
+text-align: center;
+border-radius: 20px !important;
+margin-right:150px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+ table tr {
+      padding: 5px;
+      border:2px solid aqua;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      width: 70px;
+      margin: 10px;
+      border:2px solid aqua;
+      height: 50% !important;
+}
+table th {
+      padding: 10px;
+      text-align: center !important;
+      width: 70px;
+      margin: 10px;
+      border:2px solid aqua;
+      background-color: aqua;
+}
+table tr td.middle  {
+text-align: center;
+padding: 100px;
+}
+.dropdown-menu ul li a:hover {
+      color:rgb(80, 230, 180) ;
+     
+}

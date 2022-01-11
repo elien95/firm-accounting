@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/bootstrap-rtl.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/departmment.css">
+    <link rel="stylesheet" href="css/supplier.css">
+    <link rel="stylesheet" href="css/purchase.css">
+
+
 </head>
 <body class="mt-5 rtl">
 
@@ -29,7 +34,7 @@
                
                 <a href="#" class="nav-link login" data-toggle="modal" data-target="#loginModal">تسجيل الدخول</a>
             </nav>
-            <input type="search" class="form-control search-input" placeholder="ابحث عن ...">
+            <input type="search" class="form-control search-input" placeholder="ابحث عن ..." >
             
             <!-- Modal -->
             <div class="modal fade" id="loginModal">
@@ -61,7 +66,7 @@
                     </div>
                 </div>
             </div>
-             <!-- sidebar -->
+              <!-- sidebar -->
             <div class="row pt-4">
                 <div id="wrap">
                     <div class="sidebar">
@@ -85,8 +90,8 @@
                                     <div class="card-body">
                                         <ul>
                                             <li> <a href="department.html"> الاقسام </a></li>
-                                      <li>  <a href="suppliers.html"> الموردين </a></li>
-                                      <li>    <a href="purchase.html"> المشتريات </a></li>
+                                      <li>  <a href="supplier.html"> الموردين </a></li>
+                                      <li>    <a href="purchases.html"> المشتريات </a></li>
                                       <li> <a href="sales.html"> المبيعات </a></li>
                                       <li> <a href="mangofinvoice.html"> إدارة الفواتير </a></li>
                                     </ul>
@@ -193,149 +198,109 @@
                         </ul>
                     </div>
                 </div>
-            </div
-            
+            </div>
+   
             <!-- body page -->
-            <section class="features" id="features">
-                <div class="container">
-                    <div class="row no gutters">
-                        <div class="col-md">
-                            <div class="features text-left">
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                          <a href="addinvoice.html">إضافة فاتورة</a> 
-                                        </h5>
-                                       
-                                    </div>
-                                    <i class="fas fa-plus fa-2x d-flex align-self-start mr-3" aria-hidden="true"></i>
-                                </div>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                         <a href="additems.html"> إضافة أصناف</a>
-                                        </h5>
-                                      
-                                    </div>
-                                    <i class="fas fa-plus fa-2x d-flex align-self-start mr-3" aria-hidden="true"></i>
-                                </div>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                          <a href="addservices.html">إضافة خدمات</a> 
-                                        </h5>
-                                       
-                                    </div>
-                                    <i class="fas fa-plus fa-2x d-flex align-self-start mr-3" aria-hidden="true"></i>
-                                </div>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                          <a href="addcustomer.html"> إضافة عميل </a>
-                                   
-                                        </h5>
-                                       
-                                    </div>
-                                    <i class="fas fa-plus fa-2x d-flex align-self-start mr-3" aria-hidden="true"></i>
-                                </div>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                     <a href="addsuppliers.html">إضافة مورد</a> 
-                                        </h5>
-                                        
-                                    </div>
-                                    <i class="fas fa-plus fa-2x d-flex align-self-start mr-3" aria-hidden="true"></i>
-                                </div>
-                                <div class="media">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                      <a href="addusers.html"> إضافة مستخدمين</a>
-                                        </h5>
-                                        
-                                    </div>
-                                    <i class="fas fa-plus fa-2x d-flex align-self-start mr-3" aria-hidden="true"></i>
-                                </div>
-                            </div>
-        
-                        </div>
-        
-                        <div class="col-md order-md-4">
-                            <div class="features text-right  ">
-                                <div class="media">
-                                    <i class="fas fa-folder-open fa-2x d-flex align-self-start ml-3" aria-hidden="true"></i>
-                                    <div class="media-body into">
-                                        <h5 class="mt-0 ">
-                                     <a href="reportsales.html"> تقرير المبيعات</a> 
-                                        </h5>
-                                      
-                                    </div>
-        
-                                </div>
-                                <div class="media">
-                                    <i class="fas fa-file-alt fa-2x d-flex align-self-start ml-3" aria-hidden="true"></i>
-                                    <div class="media-body ">
-                                        <h5 class="mt-0">
-                                            <a href="bellofexchange.html">  سند الصرف</a>
-                                          
-                                        </h5>
-                                      
-                                    </div>
-        
-                                </div>
-                                <div class="media">
-                                    <i class="fas fa-file-alt fa-2x d-flex align-self-start ml-3" aria-hidden="true"></i>
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                       <a href="recepit.html"> سند القبض</a>
-                                        </h5>
-                                       
-                                    </div>
-        
-                                </div>
-                                <div class="media">
-                                    <i class="fas fa-folder-open fa-2x d-flex align-self-start ml-3" aria-hidden="true"></i>
-                                    <div class="media-body ">
-                                        <h5 class="mt-0 ">
-                                          <a href="reportrecepit.html"> تقرير سندات القبض </a>
-                                        </h5>
-                                       
-                                    </div>
-        
-                                </div>
-                                <div class="media">
-                                    <i class="fas fa-folder-open fa-2x d-flex align-self-start ml-3" aria-hidden="true"></i>
-                                    <div class="media-body ">
-                                        <h5 class="mt-0">
-                                        <a href="reportbellofexchange.html">تقرير سندات الصرف </a>
-                                        </h5>
-                                        
-                                    </div>
-        
-                                </div>
-                                <div class="media">
-                                    <i class="fas fa-folder-open fa-2x d-flex align-self-start ml-3" aria-hidden="true"></i>
-                                    <div class="media-body">
-                                        <h5 class="mt-0">
-                                            <a href="reportpurchase.html">تقرير المشتريات </a>
-                                        </h5>
-                                       
-                                    </div>
-        
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md order-md-1">
-                            <div class="mobile-imge text-center" style="margin-top: 230px;">
-                                <img src="img/logo/شعار صمم.png" alt="mobile-app" class="logg" />
-                            </div>
-                        </div>
-                    </div>
+            <div class="container-fluid">
+                <ol class="breadcrumb custom-breadcrumb" style="font-size: 20px;padding-right:25px ;">
+                    <li>
+                        <a href="#">إدارة المبيعات </a>
+                    </li>
+                    <li>
+                        <a href="department.html" class="active">
+                             <span class="px-2" style="color: rgb(100, 226, 184); ">/</span> <a href="purchase.html"> المشتريات</a>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            <div class="btn-group pay" style="margin-right: 120px;margin-top: 10px;">
+              <button class="btn btn-secondary btn-lg " type="button">
+إضافة فاتورة              </button>
+              <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                <span class="sr-only"></span>
+              </button>
+              <div class="dropdown-menu">
+                    <ul style="list-style: none;">
+                          <li>  <a href="services.html">إضافة فاتورة</a></li>
+                          
+                    </ul> 
+              </div>
+            </div>
+            <div class="btn-group pay" style="margin-right: 120px;margin-top: 10px;">
+                  <button class="btn btn-secondary btn-lg " type="button">
+    إضافة المشتريات              </button>
+                  <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                    <span class="sr-only"></span>
+                  </button>
+                  <div class="dropdown-menu">
+                        <ul style="list-style: none;">
+                              <li>  <a href="services.html">إضافة المشتريات</a></li>
+                              
+                        </ul> 
+                  </div>
                 </div>
-            </section>
-               <!-- footer-->
-             <div class="row">
+             <!-- <form action=""  mothed="get" >
+                    <div class="row header-form">
+                        <table>
+                              <tr>
+                                    <th>###</th>
+                                    <th>الاشعار</th>
+                                    <th>المورد</th>
+                                    <th>العنوان</th>
+                                    <th>دائن</th>
+                                    <th>مدين</th>
+                                    <th>ملاحظات</th>
+                                    <th>---</th>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
 
+                            </tr>
+                        </table>
+                       </div>
+                    
+                </form>-->
+                <table>
+                  <tr>
+                    <th>###</th>
+                    <th> الباركود</th>
+                    <th>الوحدة</th>
+                    <th> الكمية</th>
+                    <th style="font-size:15px;">سعر الشراء</th>
+                    <th colspan="2">سعر الشراء  + الضريبة </th>
+                   
+                   
+                    <th>--</th>
+                  </tr>
+                  <tr>
+               <td colspan="8" class="middle">
+                no data available in table
+               </td> 
+                    </tr>
+                    <tr >
+                    <td colspan="4" style="height: 40px;background-color: aqua;">
+                      <input type="text " placeholder="ابحث عن  ...">
+                    </td>
+                      <td colspan="4" style="background-color: aqua;">
+                        <select name="" id="" style="background-color: white; width: 10%;padding: 3px;margin-right: 200px;">                         <option value="">10</option>
+                          <option value="">25</option>
+                          <option value="">50</option>
+                          <option value="">100</option>
+                        </select>
+                      </td>
+                      
+                    </tr>
+                </table>
+                    </div>
+              <!-- footer-->
+             <div class="row">
+                 
                   <footer class="footer">
                         <h6>
                               صمم لتقنية المعلومات
